@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 9px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="_레이어_2" data-name="레이어 2">
+    <g>
+      <line class="cls-1" x1="116.67" y1="70.02" x2="23.38" y2="70.02"/>
+      <polyline class="cls-1" points="92.15 45.51 116.67 70.03 92.2 94.49"/>
+      <rect class="cls-2" width="140" height="140"/>
+    </g>
+  </g>
+</svg>
