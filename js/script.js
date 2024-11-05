@@ -83,6 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const changeTab = document.getElementById(tabData);
       changeTab.classList.add(`tabOn`);
     });
+    
   }
 
   // sec2번 슬라이드
