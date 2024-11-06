@@ -301,6 +301,7 @@
 
 .sec_02 .swiper-container .swiper_wrap.tabOn{
     display: flex;
+    /* padding: 0; */
 }
 
 .swiper-container .swiper-slide{
@@ -824,7 +825,7 @@
     /* sec_02 */
 
     .sec_02 .container{
-        margin-right: -20px;
+        padding: 0 20px;
     }
 
     .sec_02 .container .head_text{
@@ -839,12 +840,12 @@
     }
 
     .sec_02 .swiper-container{
-        padding: 0 20px;
         height: 100%;
     }
 
     .sec_02 .swiper-container .swiper_wrap{
         flex-wrap: wrap;
+        margin-right: -20px;
     }
 
     .item_text_box p{
@@ -853,7 +854,11 @@
 
     .sec_02 .tab_box .menu{
         width: 70%;
-        text-overflow: ellipsis;
+    }
+
+    .sec_02 .tab_box{
+        justify-content: unset;
+        overflow-x: scroll;
     }
 
     .sec_02 .swiper-container .add_btn{
@@ -862,6 +867,15 @@
 
     .swiper-wrapper{
         flex-wrap: wrap;
+        /* padding: 0 20px; */
+    }
+
+    .sec_02 .tab_box li{
+        white-space: nowrap;
+    }
+
+    .item_text_box{
+        padding: 5px;
     }
 
     /* ------------------------------------ */
@@ -1028,7 +1042,7 @@
     }
 
     .sec_02 .tab_box .menu_list .menu{
-        font-size: 9px;
+        font-size: 12px;
         margin-right: 15px;
     }
 
@@ -1045,7 +1059,11 @@
     }
 
     .sec_02 .swiper-container .swiper-slide{
-        height: 500px;
+        height: auto;
+    }
+
+    .sec_02 .swiper-container .swiper_wrap{
+        width: auto;
     }
 
     .sec_03{
