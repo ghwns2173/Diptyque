@@ -1070,31 +1070,5 @@
         margin-top: 50px;
     }
 
-    .content_box .content{
-        height: 400px;
-        margin-bottom: 10px;
-    }
-
-    .swiper-container .swiper-slide .img_box{
-        height: 250px;
-    }
-
-    .company li,
-    .company_inpo li p{
-        font-size: 15px;
-    }
-
-    .footer_area .f_top{
-        margin-top: 0;
-    }
-
-    .footer_area .container{
-        padding: 0;
-    }
-
-    .footer_area .company li::after,
-    .company_inpo li:after,
-    .company_confirm li:after{
-        display: none;
-    }
+    
 }
