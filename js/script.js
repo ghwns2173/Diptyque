@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
         tabContent.classList.remove(`active`);
       }
 
-      // data-tab 에 작성된 데이터명과 동일한 아이디명을 가진 서브메뉴는 출력 
+      // data-tab 에 작성된 데이터명과 동일한 아이디명을 가진 서브메뉴는 출력
       // const changeTab = document.getElementById(tab);
       const changeTab = document.querySelector(`#${tab}`);
       changeTab.classList.add(`active`);
@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", function () {
           prevEl: ".swiper-button-prev",
         },
         slidesPerView: 4,
-        spaceBetween: 20,
+        // spaceBetween: 20,
 
       });
     } else if (windowWidth < 960 && swiper != undefined) {
