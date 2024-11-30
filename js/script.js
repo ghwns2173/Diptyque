@@ -86,6 +86,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   }
 
+  // --------------------------------------------------
+
+
 
   // // sec2번 슬라이드
   // new Swiper(".listSwiper", {
