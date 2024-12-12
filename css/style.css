@@ -909,6 +909,11 @@
         padding: 5px;
     }
 
+    .sec_02 .tab_box {
+        /* justify-content: unset; */
+        overflow-x: scroll;
+    }
+
     /* ------------------------------------ */
     /* sec_03 */
 
