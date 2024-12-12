@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener(`scroll`, function () {
     // 3. 변수에다가 스크롤Y값 넣어주기
     const scrollTop = window.scrollY;
+    
 
     // 4. if문 사용하여 스크롤값이 300이상 부터 버튼이 보여지고 사라지는지 조건문 걸어주기
     if (scrollTop >= 300) {
