@@ -741,8 +741,8 @@
         flex-direction: column;
         justify-content: space-between;
 
-        width: 30px;
-        height: 20px;
+        width: 20px;
+        height: 15px;
     }
 
     .header_area .icon_box .icon {
@@ -1053,6 +1053,18 @@
         height: 250px;
     }
 
+    .sec_03 .detail_btn{
+        width: 115px;
+        height: 40px;
+        margin-top: 10px;
+    }
+
+    .sec_03 .content_box .detail_btn .detail_view{
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+    }
+
 
 }
 
@@ -1062,12 +1074,9 @@
     }
 
     .header_area .icon_box .icon {
-        margin-right: 10px;
-    }
-
-    .m_btn .menu {
-        width: 25px;
+        width: 20px;
         height: 20px;
+        margin-right: 10px;
     }
 
     .main_banner {
