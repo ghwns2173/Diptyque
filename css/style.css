@@ -187,7 +187,8 @@
 /* sec_01영역 */
 .sec_01 .head_text {
     font-family: "Playfair Display", serif;
-    font-size: 100px;
+    /* font-size: 100px; */
+    font-size: 6.25rem;
     font-weight: 500;
     text-transform: uppercase;
 
@@ -613,7 +614,8 @@
 .company li,
 .company_inpo li p,
 .company_confirm li p {
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 0.875rem;
     white-space: nowrap;
 }
 
@@ -771,7 +773,8 @@
 
     .sec_01 .head_text {
         text-align: center;
-        font-size: 40px;
+        /* font-size: 40px; */
+        font-size: 2.5rem;
     }
 
     .sec_01 .left_box .front_img_box {
@@ -826,7 +829,8 @@
     .sec_01,
     .bottom_box,
     .top_text p {
-        font-size: 17px;
+        /* font-size: 17px; */
+        font-size: 1.0625rem;
     }
 }
 
@@ -904,7 +908,8 @@
 
     .sec_01 .head_text {
         text-align: center;
-        font-size: 40px;
+        /* font-size: 40px; */
+        font-size: 2.5rem;
     }
 
     .sec_01 .left_box .front_img_box {
@@ -959,7 +964,8 @@
     .sec_01,
     .bottom_box,
     .top_text p {
-        font-size: 17px;
+        /* font-size: 17px; */
+        font-size: 1.0625rem;
     }
 
     /* ------------------------------ */
@@ -985,7 +991,8 @@
 
     .sec_02 .container .head_text {
         margin-top: 20px;
-        font-size: 40px;
+        /* font-size: 40px; */
+        font-size: 2.5rem;
     }
 
     .sec_02 .swiper-container .swiper-slide {
@@ -1010,7 +1017,8 @@
     }
 
     .sec_02 .swiper-container .add_btn {
-        font-size: 13px;
+        /* font-size: 13px; */
+        font-size: 0.8125rem;
     }
 
     .swiper-wrapper {
@@ -1057,7 +1065,8 @@
     }
 
     .sec_03 .text_box p {
-        font-size: 15px;
+        /* font-size: 15px; */
+        font-size: 0.9375rem;
     }
 
     .sec_03 .detail_btn {
