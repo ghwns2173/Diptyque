@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   AOS.init();
 
-
   // top버튼
   // 1.변수선언하기
   const topBtn = document.querySelector(`.top_btn`);
@@ -88,7 +87,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // --------------------------------------------------
-
 
 
   // // sec2번 슬라이드

@@ -30,6 +30,6 @@ ul,li{
 }
 
 /* 가로스크롤 막기 */
-body,html{
+/* body,html{
   overflow-x: hidden;
-}
+} */
