@@ -1192,6 +1192,12 @@
         align-items: center;
     }
 
+    .sec_02 .more_btn{
+        width: 130px;
+        height: 40px;
+        font-size: 12px;
+    }
+
 }
 
 @media (max-width:375px) {
