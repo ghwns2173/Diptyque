@@ -126,6 +126,8 @@
     margin: 0 auto;
     margin-bottom: 27px;
     display: flex;
+    padding-left: 35px;
+    margin-bottom: 50px;
 }
 
 /* 하나씩 가려서 확인하기 */
