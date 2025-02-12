@@ -2,16 +2,12 @@ document.addEventListener("DOMContentLoaded", function () {
   AOS.init();
 
   // top버튼
-  // 1.변수선언하기
   const topBtn = document.querySelector(`.top_btn`);
 
-  // 2. 스크롤 이벤트 걸기
   window.addEventListener(`scroll`, function () {
-    // 3. 변수에다가 스크롤Y값 넣어주기
     const scrollTop = window.scrollY;
     
 
-    // 4. if문 사용하여 스크롤값이 300이상 부터 버튼이 보여지고 사라지는지 조건문 걸어주기
     if (scrollTop >= 300) {
       topBtn.classList.add(`scroll`);
     } else {
@@ -19,12 +15,27 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // 5. 탑버튼 클릭 이벤트를 진행하여 클릭했을때 부드럽게 맨 위로 올라가게 하기
   topBtn.addEventListener(`click`, function () {
     window.scrollTo({
       top: 0,
       behavior: `smooth`
     })
+  });
+
+  // --------------------------------------------------
+
+  // 사이드 메뉴
+  const menuBtn = document.querySelector(`.m_btn`);
+  const gnbMenu = document.querySelector(`.gnb`);
+
+  menuBtn.addEventListener(`click`, function () {
+    this.classList.toggle(`active`);
+    const hasClass = this.classList.contains(`active`);
+    if (hasClass) {
+      gnbMenu.classList.add(`active`);
+    } else {
+      gnbMenu.classList.remove(`active`);
+    }
   });
 
 
@@ -41,7 +52,6 @@ document.addEventListener("DOMContentLoaded", function () {
       const tab = this.getAttribute(`data-tab`);
       const subMenu = document.querySelectorAll(`.sub_menu`);
 
-      // 전체적으로 서브메뉴 먼저 제거
       for (const tabContent of subMenu) {
         tabContent.classList.remove(`active`);
       }
@@ -52,7 +62,6 @@ document.addEventListener("DOMContentLoaded", function () {
       changeTab.classList.add(`active`);
     });
   }
-  // 서브메뉴박스에서 마우스 나가면 기존 상태로 변경
   submenuBox.addEventListener(`mouseleave`, function () {
     this.classList.remove(`active`);
   });
@@ -72,9 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       }
       // 탭 연결
-      // li 안에 담아놓은 data 를 변수에 담아주기
       const tabData = this.getAttribute(`data-alt`);
-      // 시용할 변수 선언
       const menuList = document.querySelectorAll(`.swiper_wrap`);
 
       for (const tabContent of menuList) {
